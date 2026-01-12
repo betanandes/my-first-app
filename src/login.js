@@ -11,7 +11,7 @@ const Login = () => {
     }
 
     return <View style = {style.container}>
-        <Text style = {style.titulo}>Olá, bem-vindoo!</Text>
+        <Text style = {style.titulo}>Olá, bem-vindooo!</Text>
         <TextInput onChangeText={setLogin} placeholder="Login" style = {style.input} />
         <TextInput keyboardType="numeric" onChangeText={setSenha} placeholder="Senha" style = {style.input} secureTextEntry={true} />
         <TouchableOpacity onPress={clickBtn} style = {style.btn}>
